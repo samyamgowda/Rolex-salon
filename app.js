@@ -35,3 +35,11 @@ if (document.getElementById("itemName")) {
     document.getElementById("itemImg").src = item.img;
     document.getElementById("itemPrice").innerText = item.price;
                        }
+// Navigation Functions
+function navigate(page) {
+  window.location.href = page;
+}
+
+function goBack() {
+  window.history.back();
+}
